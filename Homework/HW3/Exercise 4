@@ -6,6 +6,7 @@ Description of your program: This program is a game of tic-tac-toe. Although fun
 """
 
 
+# Displays the rules of the game
 def print_rules():
     print("Tic-Tac-Toe")
     print("___________________________________________________________________________________________________________")
@@ -18,6 +19,7 @@ def print_rules():
           "\ndepending on the player.")
 
 
+# Displays the names of the moves the user must enter in order to play the game. This prints before every move 
 def print_legend():
     print("___________________________________________________________________________________________________________")
     print("\nMove Legend")
